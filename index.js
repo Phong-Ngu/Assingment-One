@@ -126,9 +126,9 @@ response.json(reply);  // should display empty array.
 }
 //create port and listen to incoming server. if text appear in terminal then we are connected.
 
+
 function test_print(){
 
   console.log("test code");
-
 }
 app.listen(Port, () => console.log('Example app listening on port',Port));
